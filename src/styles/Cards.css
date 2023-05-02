@@ -1,0 +1,147 @@
+.card-container {
+  padding: 3.6rem;
+  display: -ms-grid;
+  display: grid;
+  gap: 50px;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  background-color: #020b16;
+}
+
+.card {
+  width: 100%;
+  height: 110%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.face {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 280px;
+  height: 215px;
+  cursor: pointer;
+  transition: 0.5s;
+  border-radius: 5px;
+}
+
+.card .face.face1 {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1;
+  transform: translateY(100px);
+  background-color: #07203f;
+}
+
+.card:hover .face.face1 {
+  background: #ff4d5a;
+  transform: translateY(0);
+}
+
+.card .face.face2 {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transform: translateY(-100px);
+  background: rgb(255, 255, 255);
+  padding: 20px;
+}
+
+.card:hover .face.face2 {
+  transform: translateY(0);
+}
+
+.links-div {
+  display: flex;
+  gap: 12px;
+  padding-top: 12px;
+}
+
+.link {
+  width: 120px;
+  padding: 6px;
+  color: #fff;
+  background-color: #ff4d5a;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 6px;
+}
+
+.link:hover,
+.link:active {
+  background-color: #ff717b;
+}
+
+.description {
+  width: 280px;
+  color: #020b16;
+  font-weight: 600;
+  padding: 0 7px;
+}
+
+.image-project {
+  width: 250px;
+}
+
+.project-name {
+  width: 250px;
+  color: #fff;
+  font-weight: 700;
+  font-size: 1.2rem;
+  text-align: center;
+  padding-top: 9px;
+  padding-bottom: 5px;
+}
+
+.header-works {
+  background-color: #020b16;
+
+  /* padding: 12px; */
+  padding-top: 70px;
+  padding-left: 50px;
+  padding-bottom: 10px;
+}
+
+.heading-two {
+  font-size: 4.4rem;
+  font-weight: 700;
+}
+
+.summary {
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+
+@media only screen and (max-width: 420px) {
+  .header-works {
+    position: relative;
+
+    /* top: -168px; */
+    padding-left: 20px;
+    padding-top: 60px;
+    padding-bottom: 0;
+    background-color: #020b16;
+  }
+
+  .heading-two {
+    font-size: 56px;
+  }
+
+  .card-container {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    background-color: #020b16;
+  }
+
+  .summary {
+    font-size: 17px;
+  }
+}

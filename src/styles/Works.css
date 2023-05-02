@@ -1,0 +1,223 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Inter:wght@400;500;700&family=Montserrat:ital,wght@0,100;0,200;0,300;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=PT+Sans+Narrow:wght@400;700&family=Poppins:wght@400;600;800;900&family=Roboto+Mono:wght@400;600;700&family=Rubik:wght@400;500;600;700&display=swap');
+
+.works {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  background-image: url('../images/star.svg');
+  background-position-x: 390px;
+  background-position-y: -220px;
+  position: relative;
+}
+
+.side-text {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 1.2rem;
+  margin: 8rem;
+  z-index: 10;
+  position: relative;
+  top: -15px;
+}
+
+.show-more {
+  display: inline-block;
+  padding-top: 80px;
+}
+
+.projects-text {
+  font-size: 4.4rem;
+  font-weight: 700;
+  max-width: 80%;
+  letter-spacing: 2px;
+}
+
+.number-text {
+  font-family: 'Abril Fatface', cursive;
+  font-size: 8.2rem;
+  font-weight: 700;
+  top: -85px;
+  left: 370px;
+  position: relative;
+}
+
+.number-text--two {
+  font-family: 'Abril Fatface', cursive;
+  font-size: 8.2rem;
+  font-weight: 700;
+  top: -85px;
+  left: 520px;
+  position: relative;
+}
+
+.btn {
+  padding: 1rem;
+  background-color: #ff4d5a;
+  color: #fff;
+  font-size: 1.2rem;
+  font-weight: 400;
+  border-radius: 40px;
+  border: 1px solid #ff4d5a;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background-color: #e64551;
+}
+
+.image {
+  width: 125%;
+
+  /* height: 20%; */
+  position: relative;
+  top: 110px;
+  right: 250px;
+  border-radius: 15px;
+  z-index: -10;
+}
+
+.side--text-projects {
+  background-color: #020b16;
+}
+
+.about-image {
+  width: 730px;
+  height: 500px;
+  position: relative;
+  top: 80px;
+  right: 90px;
+  border-radius: 15px;
+  z-index: -10;
+}
+
+.projects-text-about {
+  font-size: 5.5rem;
+  font-weight: 700;
+  max-width: 80%;
+  letter-spacing: 9px;
+}
+
+.span-text {
+  font-size: 1.6rem;
+  font-weight: 500;
+  word-spacing: 5px;
+  line-height: 40px;
+  padding-bottom: 15px;
+}
+
+.about-span--link {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px;
+}
+
+.lines--about {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  align-self: flex-start;
+  width: 140px;
+  margin: 20px;
+}
+
+@media only screen and (max-width: 420px) {
+  .works {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    background: url('../images/moonlight.svg') no-repeat fixed 100%;
+    background-position-x: -88px;
+    background-size: 562px;
+    background-position-y: -42px;
+    position: relative;
+    overflow: hidden;
+  }
+
+  .image {
+    width: 327px;
+    height: 379px;
+    position: relative;
+    left: -10px;
+    top: 208px;
+    border-radius: 1px;
+  }
+
+  .projects-text {
+    font-size: 30px;
+    position: relative;
+    left: -62px;
+    top: -158px;
+  }
+
+  .lines-works {
+    position: relative;
+    left: -88px;
+    top: -177px;
+    gap: 5px;
+  }
+
+  .horizontal-line-red {
+    height: 2px;
+  }
+
+  .show-more {
+    position: relative;
+    top: -173px;
+    padding: 11px;
+  }
+
+  .about-image {
+    width: 327px;
+    height: 410px;
+    position: relative;
+    left: -10px;
+    top: 252px;
+    border-radius: 1px;
+  }
+
+  .projects-text-about {
+    font-size: 47px;
+    position: relative;
+    left: -87px;
+    top: -111px;
+    letter-spacing: 1px;
+  }
+
+  .span-text {
+    position: relative;
+    left: -88px;
+    top: 29px;
+    font-size: 12px;
+    line-height: 1.5;
+  }
+
+  .about-span--link {
+    position: relative;
+    top: -160px;
+  }
+
+  .about-btn {
+    position: relative;
+    top: 10px;
+    padding: 11px;
+  }
+
+  .contact-btn {
+    position: relative;
+    top: 35px;
+    padding: 11px;
+  }
+
+  .lines--about {
+    position: relative;
+    left: -88px;
+    top: -120px;
+  }
+}

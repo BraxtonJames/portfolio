@@ -1,0 +1,62 @@
+.info-projects--text {
+  font-size: 6.3rem;
+  font-weight: 700;
+  max-width: 80%;
+  letter-spacing: 9px;
+}
+
+.side--text-about {
+  position: relative;
+  left: -135px;
+  top: 95px;
+}
+
+.form-side--text {
+  padding-top: 50px;
+}
+
+@media only screen and (max-width: 420px) {
+  .works-projects {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+  .image2 {
+    width: 416px;
+    height: 456px;
+    position: relative;
+    left: -10px;
+    top: -54px;
+    border-radius: 1px;
+  }
+
+  .info-projects--text {
+    font-size: 45px;
+    left: 164px;
+    top: -196px;
+    position: absolute;
+    z-index: 1;
+  }
+
+  .backArrow {
+    position: absolute;
+    z-index: 2;
+    top: -620px;
+    width: 86px;
+    height: 50px;
+  }
+
+  .span-text--mobile {
+    position: relative;
+    left: 164px;
+    top: -172px;
+    font-size: 14px;
+    line-height: 1.5;
+  }
+
+  .lines--about {
+    position: relative;
+    left: -88px;
+    top: -120px;
+  }
+}

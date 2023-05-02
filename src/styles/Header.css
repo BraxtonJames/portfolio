@@ -1,0 +1,150 @@
+.intro {
+  background-image: url('../images/star.svg');
+  background-position-x: 390px;
+  background-position-y: -220px;
+  position: relative;
+  height: 100vh;
+  scroll-snap-align: start;
+  display: flex;
+}
+
+.horizontal-line {
+  width: 50px;
+  height: 5px;
+  color: #ffff;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  left: 110px;
+  margin-top: 2rem;
+}
+
+.porfolio {
+  position: relative;
+  top: -1270px;
+  left: 315px;
+  color: #ff4d5a;
+  font-size: 4.1rem;
+  font-weight: 800;
+  letter-spacing: 3px;
+}
+
+.moon {
+  position: relative;
+  left: 411px;
+  top: -235px;
+}
+
+.name {
+  font-size: 6.3rem;
+  font-weight: 600;
+  letter-spacing: 15px;
+}
+
+.last-name {
+  font-size: 4.1rem;
+  font-weight: 600;
+  letter-spacing: 3px;
+  align-self: flex-start;
+}
+
+.lines {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  align-self: flex-start;
+  width: 140px;
+  margin: 35px;
+}
+
+.horizontal-line-red {
+  width: 85px;
+  height: 5px;
+  border-radius: 2px;
+  background-color: #ff4d5a;
+}
+
+.second {
+  align-self: flex-end;
+}
+
+.job-title {
+  align-self: flex-start;
+  letter-spacing: 2px;
+  font-weight: 600;
+}
+
+@media only screen and (max-width: 480px) {
+  .intro {
+    background: url('../images/moonlight.svg') no-repeat fixed 100%;
+    background-position-x: -88px;
+    background-size: 562px;
+    background-position-y: -42px;
+    position: relative;
+    overflow: hidden;
+  }
+
+  .info {
+    width: 100vw;
+    height: 100vh;
+    flex-direction: column-reverse;
+  }
+
+  .moon {
+    position: relative;
+    left: -377px;
+    top: -130px;
+    width: 305px;
+  }
+
+  .porfolio {
+    position: relative;
+    left: -406px;
+    top: -410px;
+    font-size: 27px;
+    font-weight: 800;
+  }
+
+  .first-last--name {
+    position: relative;
+    top: -125px;
+  }
+
+  .lines {
+    position: relative;
+    left: -160px;
+    top: -70px;
+  }
+
+  .moon-clouds {
+    position: relative;
+    left: 164px;
+  }
+
+  .name {
+    font-size: 33px;
+    position: relative;
+    left: -143px;
+    top: 76px;
+    letter-spacing: 4.5px;
+  }
+
+  .last-name {
+    font-size: 32px;
+    position: relative;
+    left: -145px;
+    top: 72px;
+    letter-spacing: 4.5px;
+  }
+
+  .job-title {
+    position: relative;
+    left: -144px;
+    top: -85px;
+    font-size: 12px;
+  }
+}
