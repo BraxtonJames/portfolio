@@ -5,17 +5,6 @@
 
 > A Simple Software Engineer Portfolio App Made with Vanilla React, HTML5, and CSS3. The Project Contains a Showcase with Information About Me, some of My Works (Apps), and a Contact Form for Communication any feedback is welcome.
 
-
-## Video Demo 🎥
-
-
-
-
-https://user-images.githubusercontent.com/58553711/180063763-b1672e44-0a5e-46f1-a130-a57f5e72b53c.mp4
-
-
-
-
 ## Live Demo 🌐
 
 [![Heroku](https://img.shields.io/badge/Heroku-deploy-yellow)](https://immense-wave-24332.herokuapp.com/)
